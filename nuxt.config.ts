@@ -17,9 +17,9 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
         { rel: "apple-touch-icon", href: "/appstore.png" },
       ],
-      // bodyAttrs: {
-      //   class: "h-full bg-slate-100",
-      // },
+      bodyAttrs: {
+        class: "h-full bg-slate-100",
+      },
     },
   },
   css: ["~/assets/css/main.css"],

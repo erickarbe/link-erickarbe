@@ -3,7 +3,7 @@ const items = [
   {
     id: 1,
     link: "https://p2p.onecause.com/2023-tcsnyc-marathon/team/eric-arbee-carolinas-section",
-    title: "Donate to PGA Reach on my behalf",
+    title: "Donate to PGA Reach on my behalf 🎉",
     class: "ring-indigo-600",
   },
   {
@@ -24,11 +24,17 @@ const items = [
     title: "My Digital Agency",
     class: "ring-red-500",
   },
+  {
+    id: 5,
+    link: "https://golfwebdesign.com",
+    title: "Golf Web Design",
+    class: "ring-green-500",
+  },
 ];
 </script>
 
 <template>
-  <div>
+  <div class="max-w-md mx-auto">
     <div class="flex p-6">
       <div class="mr-4 flex-shrink-0">
         <img
@@ -41,7 +47,7 @@ const items = [
         <h4 class="text-lg font-bold">Erick's Links</h4>
         <p class="mt-1">
           I'm running in the NYC Marathon (in November) to raise money for PGA
-          Reach. Please consider donating!
+          Reach. <strong>Please consider donating!</strong>
         </p>
       </div>
     </div>
@@ -50,10 +56,11 @@ const items = [
       <li
         v-for="item in items"
         :key="item.id"
-        class="overflow-hidden bg-white px-4 py-4 sm:rounded-md sm:px-6 text-center"
+        class="overflow-hidden px-4 py-4 sm:rounded-md sm:px-6 text-center"
       >
         <a
-          href="{{ item.link }}"
+          :href="item.link"
+          target="_blank"
           rel="noopener noreferrer"
           :class="`bg-white ${item.class} rounded bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50`"
           >{{ item.title }}</a
