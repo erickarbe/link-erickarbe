@@ -2,7 +2,7 @@
 const items = [
   {
     id: 1,
-    link: "https://p2p.onecause.com/2023-tcsnyc-marathon/team/eric-arbee-carolinas-section",
+    link: "https://give.pgareach.org/erickarbe",
     title: "Donate to PGA Reach on my behalf 🎉",
     class: "ring-indigo-600",
   },
@@ -14,14 +14,14 @@ const items = [
   },
   {
     id: 3,
-    link: "https://willio.com",
-    title: "Willio.com (my SaaS product)",
+    link: "https://sevenvictory.com",
+    title: "Workout with me at Seven Victory",
     class: "ring-sky-600",
   },
   {
     id: 4,
     link: "https://arbedigital.com",
-    title: "My Digital Agency",
+    title: "Arbé Digital",
     class: "ring-red-500",
   },
   {
@@ -46,7 +46,7 @@ const items = [
       <div>
         <h4 class="text-lg font-bold">Erick's Links</h4>
         <p class="mt-1">
-          I'm running in the NYC Marathon (in November) to raise money for PGA
+          I'm running in the 2026 NYC Marathon (Nov. 1st) to raise money for PGA
           Reach. <strong>Please consider donating!</strong>
         </p>
       </div>
